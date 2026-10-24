@@ -1,0 +1,98 @@
+Testing full signin...
+Result: {
+  "success": true,
+  "user": {
+    "id": "4b62dc55-a96f-47f4-bdbf-ef776d15d2b2",
+    "aud": "authenticated",
+    "role": "authenticated",
+    "email": "admin@mediconnect.com",
+    "email_confirmed_at": "2026-04-08T17:20:12.976779Z",
+    "phone": "",
+    "confirmed_at": "2026-04-08T17:20:12.976779Z",
+    "last_sign_in_at": "2026-04-08T17:37:42.889855755Z",
+    "app_metadata": {
+      "provider": "email",
+      "providers": [
+        "email"
+      ]
+    },
+    "user_metadata": {
+      "email_verified": true,
+      "role": "admin"
+    },
+    "identities": [
+      {
+        "identity_id": "2d15ac5f-7a90-4b89-952f-81d39d44204c",
+        "id": "4b62dc55-a96f-47f4-bdbf-ef776d15d2b2",
+        "user_id": "4b62dc55-a96f-47f4-bdbf-ef776d15d2b2",
+        "identity_data": {
+          "email": "admin@mediconnect.com",
+          "email_verified": false,
+          "phone_verified": false,
+          "sub": "4b62dc55-a96f-47f4-bdbf-ef776d15d2b2"
+        },
+        "provider": "email",
+        "last_sign_in_at": "2026-04-08T17:20:12.975006Z",
+        "created_at": "2026-04-08T17:20:12.975054Z",
+        "updated_at": "2026-04-08T17:20:12.975054Z",
+        "email": "admin@mediconnect.com"
+      }
+    ],
+    "created_at": "2026-04-08T17:20:12.973521Z",
+    "updated_at": "2026-04-08T17:37:42.894132Z",
+    "is_anonymous": false
+  },
+  "session": {
+    "access_token": "eyJhbGciOiJFUzI1NiIsImtpZCI6ImQyZmJhNGI2LTBmYjItNDIxYy05MzAxLWIwYmMyODFjZjdhOCIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL3ltYmNjYWRxcWd5dGl5Y21kcm1uLnN1cGFiYXNlLmNvL2F1dGgvdjEiLCJzdWIiOiI0YjYyZGM1NS1hOTZmLTQ3ZjQtYmRiZi1lZjc3NmQxNWQyYjIiLCJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzc1NjczNDYyLCJpYXQiOjE3NzU2Njk4NjIsImVtYWlsIjoiYWRtaW5AbWVkaWNvbm5lY3QuY29tIiwicGhvbmUiOiIiLCJhcHBfbWV0YWRhdGEiOnsicHJvdmlkZXIiOiJlbWFpbCIsInByb3ZpZGVycyI6WyJlbWFpbCJdfSwidXNlcl9tZXRhZGF0YSI6eyJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwicm9sZSI6ImFkbWluIn0sInJvbGUiOiJhdXRoZW50aWNhdGVkIiwiYWFsIjoiYWFsMSIsImFtciI6W3sibWV0aG9kIjoicGFzc3dvcmQiLCJ0aW1lc3RhbXAiOjE3NzU2Njk4NjJ9XSwic2Vzc2lvbl9pZCI6IjEwMWZkMTQyLWJhZjItNDA0ZS1hNTE0LTAyMzNmZWI5YzcxOCIsImlzX2Fub255bW91cyI6ZmFsc2V9.Q2KcaKwLOLO0lp5sYdibLQToE05Xkm8pKa7w4jl45OpjuHdcYMUxSRil1ayOgWcCLZO5Axxc6KgqU0fU58E4gg",
+    "token_type": "bearer",
+    "expires_in": 3600,
+    "expires_at": 1775673462,
+    "refresh_token": "tvdelvhlfdjv",
+    "user": {
+      "id": "4b62dc55-a96f-47f4-bdbf-ef776d15d2b2",
+      "aud": "authenticated",
+      "role": "authenticated",
+      "email": "admin@mediconnect.com",
+      "email_confirmed_at": "2026-04-08T17:20:12.976779Z",
+      "phone": "",
+      "confirmed_at": "2026-04-08T17:20:12.976779Z",
+      "last_sign_in_at": "2026-04-08T17:37:42.889855755Z",
+      "app_metadata": {
+        "provider": "email",
+        "providers": [
+          "email"
+        ]
+      },
+      "user_metadata": {
+        "email_verified": true,
+        "role": "admin"
+      },
+      "identities": [
+        {
+          "identity_id": "2d15ac5f-7a90-4b89-952f-81d39d44204c",
+          "id": "4b62dc55-a96f-47f4-bdbf-ef776d15d2b2",
+          "user_id": "4b62dc55-a96f-47f4-bdbf-ef776d15d2b2",
+          "identity_data": {
+            "email": "admin@mediconnect.com",
+            "email_verified": false,
+            "phone_verified": false,
+            "sub": "4b62dc55-a96f-47f4-bdbf-ef776d15d2b2"
+          },
+          "provider": "email",
+          "last_sign_in_at": "2026-04-08T17:20:12.975006Z",
+          "created_at": "2026-04-08T17:20:12.975054Z",
+          "updated_at": "2026-04-08T17:20:12.975054Z",
+          "email": "admin@mediconnect.com"
+        }
+      ],
+      "created_at": "2026-04-08T17:20:12.973521Z",
+      "updated_at": "2026-04-08T17:37:42.894132Z",
+      "is_anonymous": false
+    },
+    "weak_password": null
+  },
+  "profile": {
+    "role": "admin"
+  },
+  "verificationStatus": null
+}
