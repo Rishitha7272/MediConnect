@@ -33,8 +33,7 @@ MediConnect is a professional hospital management system designed to streamline 
 ### 1. Installation
 Clone the repository:
 ```bash
-git clone https://github.com/Venkatasai6789/Hospital_Management.git
-cd Hospital_Management
+git clone https://github.com/Rishitha7272/MediConnect.git
 npm install
 ```
 
